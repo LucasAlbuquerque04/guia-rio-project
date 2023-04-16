@@ -1,0 +1,43 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+ 
+  color: #f8fafc;
+  background-color: #0195eb;
+  border-radius: 2px;
+}
+
+
+#title {
+  position: relative;
+  margin: 120px 44px 0px 44px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+
+}
+
+#illustration {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#button {
+  display: flex;
+  justify-content: end;
+  margin-right: 27px;
+  
+  
+  
+}
+
+#button:hover {
+  cursor: pointer;
+
+}
