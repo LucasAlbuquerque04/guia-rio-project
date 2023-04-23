@@ -50,6 +50,7 @@ body {
 } 
 
 .bold-h1 {
+  margin: 0px 61px;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
