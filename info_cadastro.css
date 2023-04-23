@@ -58,14 +58,6 @@ body {
   color: #FFFFFF;
 }
 
-p {
-  font-style: normal;
-  font-weight: 390;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-  color: #FFFFFF;
-}
 
 header {
   margin-top: 100px;
@@ -78,7 +70,7 @@ header {
 
 }
 
-.email input {
+.name input {
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -90,7 +82,7 @@ header {
   border-radius: 24px;
 }
 
-.password input {
+.municipality input {
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -102,7 +94,19 @@ header {
   border-radius: 24px;
 }
 
-.confirm-password input {
+.neighborhood input {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 50px;
+  margin-top: 12px;
+  background-color: rgba(0, 255, 255, 0);
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+}
+
+.age input {
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -130,7 +134,7 @@ input:focus {
   outline: none;
 }
 
-.confirm {
+.next {
   padding: 16px 70px;
   margin-top: 24px;
   background: #FFFFFF;
@@ -155,38 +159,17 @@ button:hover{
   transform: scale(1.1);
 }
 
-fieldset {
-   margin-top: 72px;
-   border-top: 1px solid #ffffff;
-   border-bottom: none;
-   border-left: none;
-   border-right: none;
-   display: block;
-   text-align: center;
-}
-
-fieldset legend {
-   padding: 5px 10px;
-   color: #FFFFFF;
-   font-style: normal;
-   font-weight: 300;
-   font-size: 16px;
-   line-height: 19px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 35px;
-  margin-bottom: 70px;
-}
-
-
-.btn {
+.next {
+  margin-left: 150px;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  padding: 15px 40px;
+  text-align: center;
   transition: all 0.5s;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-.btn:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
