@@ -38,20 +38,20 @@ h1 {
   line-height: 38px;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 50px;
+  padding-top: 131px;
   padding-left: 44px;
   padding-right: 44px;
 }  
 
 .ilustracao {
-  margin-top: 70px;
+  margin-top: 76px;
   text-align: center;
 }
 
 .button {
   margin-left: 275px;
-  margin-top: 30px;
-  padding-bottom: 40px;
+  margin-top: 60px;
+  padding-bottom: 20px;
   text-align: center;
   transition: all 0.5s;
   cursor: pointer;
