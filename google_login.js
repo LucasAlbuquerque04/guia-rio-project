@@ -1,7 +1,7 @@
 function handleCredentialResponse(response) {
-  const data = jwt_decode(response.credential)
   window.location.href = "info_cadastro.html";
-
+  const data = jwt_decode(response.credential);
+  console.log(data);
 }
 
 window.onload = function () {
