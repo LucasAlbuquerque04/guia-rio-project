@@ -7,6 +7,8 @@
   <title>Guia Rio - Cadastre-se</title>
   <link rel="stylesheet" href="cadastro.css">
   <link rel="shortcut icon" href="imagens/logo_guiario.svg" type="image/x-icon">
+  
+ 
 </head>
 <body>
   <div class="container">
@@ -34,15 +36,13 @@
           <fieldset class="Produtos">
             <legend>Ou cadastre-se com</legend>
         </fieldset>
-        <div class="btn">
-          <img src="imagens/google_button.svg" alt="">
-        </div>
-        <div class="btn">
-          <img src="imagens/facebook_button.svg" alt="">
-        </div>
+        <div id="btn-google"></div>
         </form>
       </main>
     </div>
   </div>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+  <script src="google_login.js"></script>
 </body>
 </html>

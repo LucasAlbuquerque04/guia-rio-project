@@ -174,19 +174,7 @@ fieldset legend {
    line-height: 19px;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 35px;
-  margin-bottom: 70px;
-}
-
-
-.btn {
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.btn:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+#btn-google {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
