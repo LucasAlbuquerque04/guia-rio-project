@@ -1,5 +1,5 @@
 function handleCredentialResponse(response) {
-  window.location.href = "info_cadastro.html";
+  window.location.href = "/assets/html/info_cadastro.html";
   const data = jwt_decode(response.credential);
   console.log(data);
 }
